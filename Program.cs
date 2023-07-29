@@ -8,7 +8,7 @@
 // 5 2 6 7
 // Программа считает сумму элементов в каждой строке и выдаёт номер строки с наименьшей суммой элементов: 1 строка
 
-void Organize2DMassive(int[,] massive)
+void MinSumElements(int[,] massive)
 {
     int minRow = 0;
     int minSumRow = 0;
@@ -58,4 +58,4 @@ int[,] Create2DMassiv(int rows, int columns, int startValue, int finishValue)
 int[,] massive = Create2DMassiv(4, 4, 1, 10);
 Console.WriteLine("Например, задан массив:");
 Print2DMassive(massive);
-Organize2DMassive(massive);
+MinSumElements(massive);
